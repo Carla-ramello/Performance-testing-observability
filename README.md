@@ -6,6 +6,13 @@ A performance testing project designed to evaluate the reliability, responsivene
 
 The project simulates real-world user traffic, validates API responses, measures performance metrics, and establishes performance baselines for future scalability assessments.
 
+## Target Application
+
+The performance tests are executed against a custom REST API
+developed specifically for this project.
+
+[Game Store API](https://github.com/Carla-ramello/Game-store-api)
+
 ## Tech Stack
 
 - TypeScript
