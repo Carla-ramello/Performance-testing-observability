@@ -1,0 +1,143 @@
+{
+    "metrics": {
+        "http_req_receiving": {
+            "med": 0,
+            "max": 1.0148,
+            "p(90)": 0.53073,
+            "p(95)": 0.577975,
+            "avg": 0.10488499999999998,
+            "min": 0
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0
+        },
+        "iterations": {
+            "count": 100,
+            "rate": 4.987935854127377
+        },
+        "iteration_duration": {
+            "med": 1001.0445,
+            "max": 1024.3674,
+            "p(90)": 1004.78312,
+            "p(95)": 1006.20688,
+            "avg": 1002.4186650000007,
+            "min": 1000.1047
+        },
+        "http_req_blocked": {
+            "max": 2.651,
+            "p(90)": 0,
+            "p(95)": 0.13254999999999245,
+            "avg": 0.13255,
+            "min": 0,
+            "med": 0
+        },
+        "http_reqs": {
+            "count": 100,
+            "rate": 4.987935854127377
+        },
+        "http_req_connecting": {
+            "avg": 0.13255,
+            "min": 0,
+            "med": 0,
+            "max": 2.651,
+            "p(90)": 0,
+            "p(95)": 0.13254999999999245
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 0.6409150000000001,
+            "min": 0,
+            "med": 0.54105,
+            "max": 2.5617,
+            "p(90)": 1.2851200000000025,
+            "p(95)": 1.6454249999999997
+        },
+        "checks": {
+            "passes": 200,
+            "fails": 0,
+            "thresholds": {
+                "rate==1": false
+            },
+            "value": 1
+        },
+        "vus_max": {
+            "max": 5,
+            "value": 5,
+            "min": 5
+        },
+        "vus": {
+            "value": 5,
+            "min": 5,
+            "max": 5
+        },
+        "data_sent": {
+            "count": 7500,
+            "rate": 374.09518905955326
+        },
+        "data_received": {
+            "count": 84400,
+            "rate": 4209.817860883506
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 100,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "http_req_waiting": {
+            "avg": 0.5360300000000002,
+            "min": 0,
+            "med": 0.5164500000000001,
+            "max": 2.5617,
+            "p(90)": 1.1664200000000002,
+            "p(95)": 1.6416
+        },
+        "http_req_duration": {
+            "avg": 0.6409150000000001,
+            "min": 0,
+            "med": 0.54105,
+            "max": 2.5617,
+            "p(90)": 1.2851200000000025,
+            "p(95)": 1.6454249999999997,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+            "Status code is 200": {
+                "fails": 0,
+                "name": "Status code is 200",
+                "path": "::Status code is 200",
+                "id": "2c69019e4093af25e9f4545bae37ba5d",
+                "passes": 100
+            },
+            "Game catalog is valid": {
+                "path": "::Game catalog is valid",
+                "id": "05dff0c4cb2c2f8947dc6c9b06c86682",
+                "passes": 100,
+                "fails": 0,
+                "name": "Game catalog is valid"
+            }
+        }
+    }
+}

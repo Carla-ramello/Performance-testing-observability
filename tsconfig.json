@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Versión de JavaScript utilizada como referencia.
+    "target": "ES2022",
+
+    // Utilizamos módulos ES para trabajar con k6.
+    "module": "ESNext",
+
+    // Configuración para resolver las importaciones.
+    "moduleResolution": "Bundler",
+
+    // Activamos las comprobaciones estrictas de TypeScript.
+    "strict": true,
+
+    // Incorporamos las definiciones de tipos de k6.
+    "types": ["k6"],
+
+    // Evitamos generar archivos JavaScript.
+    "noEmit": true,
+
+    // Omitimos la comprobación interna de las librerías.
+    "skipLibCheck": true,
+
+    // Verificamos la consistencia de los nombres de archivos.
+    "forceConsistentCasingInFileNames": true
+  },
+
+  // Indicamos qué archivos debe comprobar TypeScript.
+  "include": ["tests/**/*.ts"],
+
+  // Excluimos las dependencias instaladas.
+  "exclude": ["node_modules"]
+}
